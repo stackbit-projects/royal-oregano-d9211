@@ -3,6 +3,66 @@ title: Home
 layout: PageLayout
 sections:
   - elementId: ''
+    colors: colors-h
+    width: wide
+    height: tall
+    contentWidth: large
+    contentAlignHoriz: center
+    contentAlignVert: middle
+    topGap: none
+    bottomGap: none
+    textAlign: left
+    variant: variant-a
+    badge:
+      elementId: ''
+      label: lorem-ipsum
+    title: My Title!!!
+    text: >-
+      ## Lorem ipsum
+
+
+      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+      - Lorem ipsum
+
+      - dolor sit amet
+    form:
+      type: FormBlock
+      idAttr: contact-form
+      action: /.netlify/functions/submission_created
+      destination: ''
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          placeholder: Your name
+          isRequired: true
+          width: 1/2
+        - type: EmailFormControl
+          name: email
+          label: Email
+          placeholder: Your email
+          isRequired: true
+          width: 1/2
+        - type: TextFormControl
+          name: home-address
+          label: Home address
+          placeholder: Your home address
+          isRequired: true
+          width: full
+        - type: CheckboxFormControl
+          name: updates
+          label: Sign me up to receive updates
+          width: full
+      submitLabel: Send Message
+    feature:
+      type: ImageBlock
+      url: /images/contact.png
+      altText: Contact form image
+    type: ContactSection
+  - elementId: ''
     colors: colors-a
     width: wide
     height: tall
