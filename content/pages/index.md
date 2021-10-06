@@ -18,7 +18,7 @@ sections:
       label: lorem-ipsum
     title: My Title!!!
     text: >-
-      ## Lorem ipsum
+      ## Lorem ipsum!!!
 
 
       Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
