@@ -1,5 +1,5 @@
 {
-    "model": "HeroSection",
+    "model": "ContactSection",
     "presets": [{
             "label": "My Hero Section 1",
             "thumbnail": "images/placeholder.png",
