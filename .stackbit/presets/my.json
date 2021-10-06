@@ -1,7 +1,7 @@
 {
     "model": "ContactSection",
     "presets": [{
-            "label": "My Hero Section 1",
+            "label": "My Hero Section 2",
             "thumbnail": "images/placeholder.png",
             "data": {
                 "variant": "variant-a",
@@ -9,7 +9,7 @@
             }
         },
         {
-            "label": "My Hero Section 2",
+            "label": "My Hero Section 32",
             "thumbnail": "images/placeholder.png",
             "data": {
                 "variant": "variant-a",
